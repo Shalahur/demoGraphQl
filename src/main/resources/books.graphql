@@ -1,6 +1,7 @@
 schema {
     query: Query
 }
+
 type Query {
     allBook: [Book]
     book(id: String): Book
